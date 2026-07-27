@@ -7,7 +7,7 @@ cask "clipdeck" do
   desc "Native, privacy-first clipboard manager for macOS"
   homepage "https://clipdeck-mac.vercel.app/"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "ClipDeck.app"
 
