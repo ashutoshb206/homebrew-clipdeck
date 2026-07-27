@@ -11,6 +11,12 @@ cask "clipdeck" do
 
   app "ClipDeck.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-dr", "com.apple.quarantine", "#{appdir}/ClipDeck.app"],
+                   sudo: false
+  end
+
   zap trash: [
     "~/Library/Application Support/Clipdeck",
     "~/Library/Preferences/com.clipdeck.app.plist",
