@@ -1,6 +1,6 @@
 cask "clipdeck" do
-  version "1.2.4"
-  sha256 "521a326105eb3e17b8a97dce9440f035c88f8ed4d58540eb857703bc47e6cd76"
+  version "1.2.5"
+  sha256 "8d7a045844a52a5ee56fa3302b9eaad851716df850eb73aa2eb317d4a97444c8"
 
   url "https://clipdeck-mac.vercel.app/downloads/ClipDeck.dmg"
   name "ClipDeck"
