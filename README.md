@@ -31,6 +31,6 @@ brew uninstall --cask clipdeck
 
 ClipDeck keeps everything you copy searchable and one keystroke away. Built with Swift + SwiftUI, it runs natively in your menu bar.
 
-- 🌐 [Website](https://clipdeck-mac.vercel.app/)
+- 🌐 [Website]()
 - 📦 [Source Code](https://github.com/ashutoshb206/ClipDeck)
-- 📋 [Changelog](https://clipdeck-mac.vercel.app/changelog.html)
+- 📋 [Changelog]()
